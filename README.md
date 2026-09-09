@@ -4,6 +4,12 @@ Presentatieklare demo met twee richtingen voor Luka van Klussenbedrijf Mint.
 
 ## Openen
 
+Live demo: https://bjornb0316.github.io/klussenbedrijf-mint-demo/
+
+GitHub: https://github.com/bjornb0316/klussenbedrijf-mint-demo
+
+GitHub Pages publiceert vanuit de root van de branch `master`. Een push naar die branch werkt de demo bij. `robots.txt` vraagt zoekmachines de demo niet te crawlen.
+
 Start lokaal met `npx -y http-server -p 8486 -c-1 .` en open `http://localhost:8486`.
 
 ## Varianten
