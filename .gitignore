@@ -1,0 +1,11 @@
+/design/
+/tools/
+/assets/img/*.png
+/assets/img/project-
+/node_modules/
+/.env
+/.env.*
+/.claude/
+/.codex/
+/.agents/
+*.log
