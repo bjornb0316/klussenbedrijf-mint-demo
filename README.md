@@ -1,27 +1,12 @@
 # Klussenbedrijf Mint
 
-Presentatieklare demo met twee richtingen voor Luka van Klussenbedrijf Mint.
+Eén afgeronde websitevariant met vier pagina’s: Home, Diensten, Ons werk en Contact.
 
-## Openen
+Open index.html in een browser, of serveer deze map met `python -m http.server 8487`.
+Publiceren: upload de vier HTML-bestanden en de map assets naar een statische webhost. Geen installatie, database of build nodig.
 
-Live demo: https://bjornb0316.github.io/klussenbedrijf-mint-demo/
+Het aanvraagformulier maakt lokaal een berichtvoorstel. De bezoeker opent daarna WhatsApp of e-mail en verstuurt het bericht zelf. De site bevestigt nooit ten onrechte dat een aanvraag is verstuurd. Telefoon en e-mailadres komen overeen met de bestaande publieke Mint-site.
 
-GitHub: https://github.com/bjornb0316/klussenbedrijf-mint-demo
+Portfolio: bestaande Mint-foto’s. Het grote badkamerbeeld is AI-gegenereerde inspiratie en is als zodanig gemarkeerd. Geen fictieve reviews of portretfoto’s.
 
-GitHub Pages publiceert vanuit de root van de branch `master`. Een push naar die branch werkt de demo bij. `robots.txt` vraagt zoekmachines de demo niet te crawlen.
-
-Start lokaal met `npx -y http-server -p 8486 -c-1 .` en open `http://localhost:8486`.
-
-## Varianten
-
-- **Professional** (`variant-1/`): zes pagina’s: home, diensten, ons werk, over Luka, ervaringen en contact.
-- **Performance** (`variant-2/`): vijftien pagina’s: intent-router, dienstenhub, acht aparte dienstpagina’s, werkwijze, over Luka, ervaringen, portfolio en contact.
-
-## Voor livegang vervangen
-
-- De demo-sfeerfoto's `bathroom.png` en `kitchen.png` door echte projectfotografie zodra die in hoge resolutie beschikbaar is. De portfoliofoto’s in `project-*.webp` zijn rechtstreeks uit het publieke Mint-portfolio gehaald.
-- Contactformulieren koppelen aan e-mail of CRM. In deze demo tonen ze lokaal een succesmelding.
-- De huidige telefoon, e-mail, adresgegevens en reviews zijn overgenomen van de bestaande publieke site en moeten vóór publicatie nog één keer met Luka worden bevestigd.
-- Het merkbeeld `logo-source.png` is de bron uit de bestaande site; de navigatie gebruikt bewust een tekstlogo voor scherpte op elk scherm.
-
-Geen prijzen of openingstijden zijn verzonnen.
+Desktop (1440 breed) en mobiel (390 breed) gecontroleerd in de ingebouwde browser. Navigatie, dienstselectie, aanvraagpreview, aanpassen en contactlinks getest. Geen berichten verzonden. Niet automatisch online gepubliceerd.
